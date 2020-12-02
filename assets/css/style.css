@@ -1,8 +1,53 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 120%;
+    font-family: 'PT Serif', serif;
+    color: #064202;
+    background-color: #FAFAFA;
+    padding-bottom: 20px;
 }
 
-h1 {
-    font-weight: 300;
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+} 
+
+.content {
+    margin-top: 50px;
+}
+
+#matchaContainer {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;
+}
+
+#matcha {
+    width: 700px;
+    transition: 0.3s;
+}
+
+#greeting {
+    position: relative;
+    transform: translate(0px, -100px);
+    font-size: 36px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+
+#greeting:hover {
+    cursor: default;
+}
+
+#proceed {
+    opacity: 0;
+    animation: fadeInAnimation ease 5s 18.5s normal forwards;
 }

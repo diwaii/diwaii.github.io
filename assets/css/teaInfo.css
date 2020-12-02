@@ -1,0 +1,64 @@
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+} 
+
+body {
+    background-color: #99B88A;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'PT Serif', serif;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;
+}
+
+#nav {
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+#titleContainer p:hover {
+    cursor: default;
+}
+
+#teaName {
+    font-size: 100px;
+}
+
+#leftSide {
+    padding-top: 150px;
+    padding-left: 125px;
+    padding-right: 75px;
+}
+
+#rightSide {
+    padding-right: 125px;
+}
+
+p { 
+    font-size: 28px;
+}
+
+.info {
+    margin-top: -50px;
+}
+
+#backArrow {
+    transition: 0.3s;
+}
+
+#backArrow:hover {
+    transition: 0.3s;
+    transform: translate(-5px, 0px);
+}
