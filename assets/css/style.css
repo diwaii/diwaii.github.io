@@ -124,8 +124,7 @@ p {
 
 #purple-line {
     padding-left: 18px;
-    border-left: 8px;
-    border-left: rgba(119, 153, 241, 0.3);
+    border-left: 5px solid  rgba(119, 153, 241, 0.3);
     height: 100%;
     border-style: solid;
 }
@@ -153,20 +152,24 @@ p {
     border-style: solid;
     border-width: 1px;
     border-color: #343434;
+    transition: 0.2s;
 }
 
 #browse-button:hover {
     color: white;
     background-color: #343434;
+    transition: 0.2s;
 }
 
 #new-button {
     color: white;
     background-color: #4A8FE7;
+    transition: 0.2s;
 }
 
 #new-button:hover {
     background-color: #343434;
+    transition: 0.2s;
 }
 
 #right-box {

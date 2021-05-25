@@ -104,6 +104,22 @@ h3 {
     font-weight: 600;
     line-height: normal;
     margin-top: 24pt;
+    margin-bottom: 8pt;
+}
+
+h4 {
+    font-size: 16pt;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 16pt;
+    margin-bottom: 4pt;
+}
+
+h6 {
+    font-size: 12pt;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 4pt;
 }
 
 p {
@@ -147,19 +163,18 @@ p {
 
 .left-box-item {
     margin-bottom: 1rem;
-    display: flexbox;
+    display: flex;
 }
 
 #purple-line {
     padding-left: 18px;
-    border-left: 8px;
-    border-left: rgba(119, 153, 241, 0.3);
+    border-left: 5px solid  rgba(119, 153, 241, 0.3);
     height: 100%;
     border-style: solid;
 }
 
 #home-buttons {
-    display: flexbox;
+    display: flex;
     flex-direction: row;
     align-items: center;
 }
@@ -183,27 +198,31 @@ p {
     border-color: #aaaaaa;
     line-height: 35pt;
     border-radius: 20px;
-    padding: 2px 19px;
+    padding: 2px 18px;
 }
 
 #browse-button {
     border-style: solid;
     border-width: 1px;
     border-color: #343434;
+    transition: 0.2s;
 }
 
 #browse-button:hover {
     color: white;
     background-color: #343434;
+    transition: 0.2s;
 }
 
 #new-button {
     color: white;
     background-color: #4A8FE7;
+    transition: 0.2s;
 }
 
 #new-button:hover {
     background-color: #343434;
+    transition: 0.2s;
 }
 
 #right-box {
@@ -238,10 +257,14 @@ p {
 
 #recentPublication {
     margin-top: 56px;
-    display: flexbox;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+#recentPublicationImg {
+    margin-right: 4%
 }
 
 #newestThumbnail {
@@ -249,9 +272,27 @@ p {
 }
 
 #recentPublicationInfo {
-    display: flexbox;
+    display: flex;
     flex-direction: column;
+    max-width: 500px;
 }
+
+.tags {
+    display: flex;
+    flex-direction: row;
+}
+
+.tag {
+    font-size: 10pt;
+    font-weight: 600;
+    color: #fafafa;
+    background-color: #E16C8C;
+    padding: 6px 8px;
+    margin-right: 8px;
+    border-radius: 8px;
+}
+
+/* Footer */
 
 footer {
     width: 100%;
