@@ -1,3 +1,5 @@
+/* Whole Page */
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -37,6 +39,8 @@ body {
     user-select: none;
     
 }
+
+/* Nav Bar */
 
 nav a {
     color: inherit; /* remove blue link colour */
@@ -87,6 +91,8 @@ nav ul li a:hover {
     border-bottom: 4px solid #4A8FE7;
 }
 
+/* Content */
+
 h1 {
     font-size: 40pt;
     font-weight: 600;
@@ -117,7 +123,7 @@ p {
 
 .banner {
     min-height: 250px;
-    background: linear-gradient(to right, rgba(243,231,233,1), rgba(227,238,255,1));
+    background: linear-gradient(to right, rgba(248,227,230,1), rgba(227,238,255,1));
 }
 
 #banner-title {
@@ -128,13 +134,9 @@ p {
 
 .content {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
     padding: 0 8%;
     margin-top: 2rem;
-    justify-content: center;
-    align-items: center;
-    
 }
 
 #left-box {
@@ -230,6 +232,25 @@ p {
     text-decoration: underline;
     text-decoration-style: dotted;
     text-decoration-color: #E16C8C;
+}
+
+/* Publications */
+
+#recentPublication {
+    margin-top: 56px;
+    display: flexbox;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#newestThumbnail {
+    max-width: 300px;
+}
+
+#recentPublicationInfo {
+    display: flexbox;
+    flex-direction: column;
 }
 
 footer {

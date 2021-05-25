@@ -26,7 +26,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     display: block;
     color: #343434;
-    background: linear-gradient(to right, rgba(243,231,233,1), rgba(227,238,255,1));
+    background: linear-gradient(to right, rgba(248,227,230,1), rgba(227,238,255,1));
     line-height: 1;
     animation: fadein 1s;
     height: 100%;
