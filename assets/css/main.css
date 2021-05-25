@@ -248,7 +248,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 11pt;
+    font-size: 10pt;
+    line-height: 16pt;
 }
 
 
