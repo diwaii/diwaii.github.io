@@ -38,7 +38,7 @@ body {
     
 }
 
-a {
+nav a {
     color: inherit; /* remove blue link colour */
     text-decoration: inherit; /* no underline */
 }
@@ -216,6 +216,20 @@ p {
     width: 100%;
     max-width: 600px;
     margin-left: 4%;
+}
+
+.contentLink {
+    color: #4A8FE7;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #4A8FE7;
+}
+
+.contentLink:hover {
+    color: #E16C8C;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: #E16C8C;
 }
 
 footer {
