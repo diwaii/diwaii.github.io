@@ -143,12 +143,12 @@ p {
 
 .banner {
     min-height: 250px;
+    padding: 0 8%;
     background: linear-gradient(to right, rgba(248,227,230,1), rgba(227,238,255,1));
 }
 
 #banner-title {
     padding-top: 140px;
-    padding-left: 120px;
 }
 
 .content {
@@ -255,6 +255,53 @@ p {
     text-decoration: underline;
     text-decoration-style: dotted;
     text-decoration-color: #E16C8C;
+}
+
+/* About */
+
+#our-team {
+    
+}
+
+.team-members {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 32px;
+    margin-right: 24px;
+}
+
+.member-picture {
+    border-radius: 10px;
+    max-width: 320px;
+}
+
+.member-name {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 13pt;
+    margin: 0;
+    margin-top: 16px;
+    line-height: normal;
+}
+
+.member-position {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11pt;
+    margin: 0;
+    margin-top: 4px;
+    line-height: normal;
+    color: #E16C8C;
 }
 
 /* Publications */
