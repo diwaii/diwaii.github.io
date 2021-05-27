@@ -259,10 +259,6 @@ p {
 
 /* About */
 
-#our-team {
-    
-}
-
 .team-members {
     display: flex;
     flex-direction: row;
