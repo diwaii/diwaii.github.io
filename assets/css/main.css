@@ -27,7 +27,7 @@ section, summary, time, mark, audio, video {
 body {
     font-family: 'Open Sans', sans-serif;
     display: block;
-    color: #343434;
+    color: #181818;
     background: #fafafa;
     line-height: 1;
     animation: fadein 1s;
@@ -208,13 +208,13 @@ p {
 #browse-button {
     border-style: solid;
     border-width: 1px;
-    border-color: #343434;
+    border-color: #181818;
     transition: 0.2s;
 }
 
 #browse-button:hover {
     color: white;
-    background-color: #343434;
+    background-color: #181818;
     transition: 0.2s;
 }
 
@@ -225,7 +225,7 @@ p {
 }
 
 #new-button:hover {
-    background-color: #343434;
+    background-color: #181818;
     transition: 0.2s;
 }
 
