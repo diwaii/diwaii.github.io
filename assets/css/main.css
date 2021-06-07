@@ -80,15 +80,29 @@ header {
     align-items: center;
 }
 
-nav ul li {
-    list-style-type: none;
-    display: inline-block;
-    padding-left: 2rem;
+nav {
+    width: 80%;
 }
 
-nav ul li a:hover {
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a:hover {
     border-bottom: 4px solid #4A8FE7;
     transition: 0.2s;
+}
+
+.burger {
+    display: none;
+    width: 25px;
+    cursor: pointer;
 }
 
 .current {
@@ -347,7 +361,6 @@ p {
 /* Footer */
 
 footer {
-    width: 100%;
     position: relative;
     margin-top: 10em;
     bottom: 0;
@@ -357,7 +370,7 @@ footer {
     display: -moz-flex;
 	display: -webkit-flex;
 	display: -ms-flex;
-    padding: 2rem 0;
+    padding: 2rem 8%;
     display: flex;
     flex-direction: column;
     justify-content: center;
