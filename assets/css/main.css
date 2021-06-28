@@ -191,6 +191,10 @@ p {
     padding-left: 32pt;
 }
 
+.content li {
+    list-style-type: circle;
+}
+
 .content-holder {
     width: 100%;
     left: 0;
