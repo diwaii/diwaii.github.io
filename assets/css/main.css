@@ -193,6 +193,7 @@ p {
 
 .content li {
     list-style-type: circle;
+    margin-bottom: 0.2%;
 }
 
 .content-holder {
